@@ -1,5 +1,39 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-peterbourgon-diskv (3.0.0-2) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository, Repository-Browse.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 05 Feb 2021 02:04:41 +0000
+
+golang-github-peterbourgon-diskv (3.0.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Standards-Version: 4.4.1.
+  * DH & compat to version 12.
+  * (Build-)Depends:
+    = golang-github-google-btree-dev (>= 1.0.0~)
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Sun, 01 Dec 2019 13:08:52 +1100
+
+golang-github-peterbourgon-diskv (2.0.1-1) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Tim Potter ]
+  * Add me to uploaders
+
+  [ Dmitry Smirnov ]
+  * New upstream release.
+  * Testsuite: autopkgtest-pkg-go
+  * Standards-Version: 4.1.4; Priority: optional
+  * dephelper & compat to version 11.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Mon, 18 Jun 2018 13:56:42 +1000
+
+golang-github-peterbourgon-diskv (2.0.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #819591).
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Thu, 31 Mar 2016 09:29:23 +1100
